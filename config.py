@@ -22,3 +22,9 @@ class DevelopConfig(Config):
 
 class ProduceConfig(Config):
     DEBUG = False
+
+
+congfig_dict = {"dev": DevelopConfig,
+                "pro": ProduceConfig
+
+           }
